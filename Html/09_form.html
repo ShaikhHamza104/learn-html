@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form handling</title>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <label for="username">user name</label>
+        <input type="text" name="username" id="username" placeholder="Enter your  name"><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required><br>
+        <label for="gender">Choose your Gender</label>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Fe-male
+        <input type="radio" name="gender" id="gender">other<br>
+        <label for="bod">Select your birth date</label>
+        <input type="date" name="bod" id="date" min="2-1-1990" max="2-1-2024"><br>
+        <input type="range" name="range" min="0" max="100" step="1"><br>
+        <label for="lang">Choose your progaramming language u can coverd </label><br>
+        <input type="checkbox" name="programming" id="lang">C
+        <input type="checkbox" name="programming" id="lang">C++
+        <input type="checkbox" name="programming" id="lang">Java
+        <input type="checkbox" name="programming" id="lang">Python
+        <input type="checkbox" name="programming" id="lang">C#<br>
+        <label for="url">Enter an resourse</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="20"
+            required><br>
+        <textarea name="" id="" placeholder="Enter your over all expreince" cols="50" rows="10"></textarea><br>
+        <input type="file" name="file" id="file"><br>
+        <iframe src="https://en.wikipedia.org/wiki/HTML" width="220"></iframe>
+        <input type="reset" name="reset" value="Reset"><br>
+        <input type="submit" value="submit"><br>
+    </form>
+</body>
+
+</html>
